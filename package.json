@@ -1,0 +1,13 @@
+{
+  "name": "sales-intelligence-saas-root",
+  "version": "1.0.0",
+  "description": "Production SaaS for Sales Objection Handling Assistant with Token Deduction & Video RAG",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "build": "npm --prefix client run build",
+    "start": "node server/server.js",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev"
+  },
+  "keywords": ["sales", "objections", "manuj-bajaj", "gemini", "rag", "saas"]
+}

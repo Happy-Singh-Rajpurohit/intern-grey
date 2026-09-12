@@ -1,0 +1,27 @@
+# Node dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production build artifacts
+client/dist/
+
+# Local databases
+server/sales_intelligence.db
+server/sales_intelligence.db-wal
+server/sales_intelligence.db-shm
+*.sqlite
+*.db
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Logs & OS artifacts
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
